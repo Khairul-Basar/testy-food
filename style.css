@@ -1,0 +1,45 @@
+body{
+  margin:0;
+}
+
+.head-section{
+  display: flex;
+}
+
+.head-class{
+  width: 40%;
+  padding: 2% 0 0 8%;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'STIX Two Math', serif;
+  color: gray;
+  padding: 20px 0 30px 0;
+}
+
+.title-name{
+  font-family: 'Courgette', cursive;
+  color: rgb(43, 119, 190);
+}
+
+.link-food{
+  text-decoration: none;
+  background-image: linear-gradient(to left,rgb(28, 111, 189), lightblue);
+  padding: 15px 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.head-class img{
+  width: 90%;
+}
+
+
