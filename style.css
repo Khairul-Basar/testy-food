@@ -2,11 +2,12 @@ body{
   margin:0;
 }
 
-.head-section{
+.flex-section{
   display: flex;
+  margin-bottom: 100px;
 }
 
-.head-class{
+.half-division{
   width: 40%;
   padding: 2% 0 0 8%;
 }
@@ -15,7 +16,13 @@ h1{
   font-size: 50px;
 }
 
-p{
+h2{
+  font-size: 35px;
+  font-family: 'Merienda One', cursive;
+  color: rgb(28, 111, 189);
+}
+
+.paragraph{
   text-align: justify;
   font-size: 18px;
   font-family: 'STIX Two Math', serif;
@@ -28,7 +35,7 @@ p{
   color: rgb(43, 119, 190);
 }
 
-.link-food{
+.food-link{
   text-decoration: none;
   background-image: linear-gradient(to left,rgb(28, 111, 189), lightblue);
   padding: 15px 30px;
@@ -38,8 +45,48 @@ p{
   border-radius: 50px;
 }
 
-.head-class img{
+.half-division img{
   width: 90%;
+}
+
+#about-section{
+  background-image: url(img/Frame_57.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.recipe-title{
+  padding: 0 30%;
+  text-align: center;
+}
+
+.recipe-title p{
+  text-align: center;
+}
+
+.recipie-body{
+  display: flex;
+  padding: 0 5% 5% 5%;
+}
+
+.recipie-card{
+  width: 33%;
+  padding: 1.5%;
+  margin: 0 3%;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 10px;
+}
+
+.recipie-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipe-des{
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'STIX Two Math', serif;
+  color: gray;
 }
 
 
