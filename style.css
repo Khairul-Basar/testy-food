@@ -43,6 +43,7 @@ h2{
   font-weight: 700;
   font-size: 18px;
   border-radius: 50px;
+  box-shadow: 10px 10px 50px rgb(182, 225, 240);
 }
 
 .half-division img{
@@ -55,6 +56,8 @@ h2{
   background-size: 100% 100%;
 }
 
+
+
 .recipe-title{
   padding: 0 30%;
   text-align: center;
@@ -64,22 +67,25 @@ h2{
   text-align: center;
 }
 
+
 .recipie-body{
   display: flex;
   padding: 0 5% 5% 5%;
+  margin: 0 0 100px 0;
 }
+
 
 .recipie-card{
   width: 33%;
   padding: 1.5%;
   margin: 0 3%;
-  box-shadow: 10px 10px 50px gray;
-  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgb(187, 185, 185);
+  border-radius: 20px;
 }
 
 .recipie-card img{
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .recipe-des{
@@ -87,6 +93,53 @@ h2{
   font-size: 18px;
   font-family: 'STIX Two Math', serif;
   color: gray;
+}
+
+
+.review{
+  background-image: linear-gradient(rgb(194, 231, 243), white);
+  color: rgb(128, 128, 128);
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+#review-title{
+  color: rgb(55, 169, 207);
+  padding: 5% 30%;
+}
+
+.review-body{
+  display: flex;
+  padding: 0 5% 5% 5%;
+}
+
+.review-card{
+  width: 33%;
+  padding: 1.5%;
+  margin: 0 3%;
+}
+
+.review-card img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.review-comment{
+  color: rgb(67, 152, 180);
+  font-weight: bold;
+}
+
+
+footer{
+  padding: 3% 0 0 0;
+  height: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.829);
+  color: white;
+}
+
+footer h2{
+  color: rgb(66, 157, 241);
 }
 
 
